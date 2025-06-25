@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight:lighter;
+    
+}
+
+body::before{
+    content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("img/fondo.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  z-index: -1;
+}
+
+#bbody {
+    background-color: rgba(0, 0, 0, 0.35);
+    height: 800px;
+      position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body{
+    height: 768px;
+    width: 100%;
+    color: white;
+}
+.enc{
+    height: 235px;
+    align-items: center;
+   display: block;
+   position: fixed;
+   top: 0;
+   left: 0;
+   
+   
+}
+.tit{
+    margin-left: 600px;
+    text-align: center;
+    font-size: 50px;
+     font-family: Modak;
+    
+}
+.logo{
+margin: 0;
+margin-left: 800px;
+margin-top: -50px;
+padding: 0;
+position: fixed;
+}
+.fila{
+    display: flex;
+    gap: 0;
+
+}
+
+.der{
+    padding: 15px;
+    height: 100vw;
+    width: 100vw;
+   
+    align-items: center;
+}
+.canciones{
+   margin-left: 400px;
+   font-family: Dongle;
+   font-size: 23px;
+   text-align: center;
+}
+.canciones li{
+    padding: 20px;
+    list-style-type:none;
+    display: inline-block;
+    margin-top: 200px;
+    position: relative;
+}
+
+.rgarnet {
+  position: fixed;
+  top:0;
+  left: 0;
+  height: 800px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.garnet:hover + .rgarnet {
+  opacity: 1;
+}
+.rrose {
+  position: fixed;
+  top:0;
+  left: 0;
+  height: 800px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.rose:hover + .rrose {
+  opacity: 1;
+}
+.rgreg {
+  position: fixed;
+  top:0;
+  left: 0;
+  height: 800px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.greg:hover + .rgreg {
+  opacity: 1;
+}
+.rstevonie {
+  position: fixed;
+  top:0;
+  left: 0;
+  height: 800px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.stevonie:hover + .rstevonie {
+  opacity: 1;
+}
+.rperla {
+  position: fixed;
+  top:0;
+  left: 0;
+  height: 800px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.perla:hover + .rperla {
+  opacity: 1;
+}
+
+.anuncios{
+   float: left;
+   display: fixed;
+   gap: 1vw;
+margin-top: 10vw;
+margin-left: 75vw;
+}
+.regresar{
+    margin-top: 13vw;
+    margin-left: 40vw;
+    position: fixed;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes{
+    float: left;
+    margin-left: 85vw;
+    position: absolute;
+    margin-top: 1vw;
+}
+
+

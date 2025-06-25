@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight:lighter;
+    
+}
+
+body::before{
+    content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/fondo.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  z-index: -1;
+}
+
+#bbody {
+    background-color: rgba(0, 0, 0, 0.35);
+    height: 800px;
+      position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body{
+    height: 768px;
+    width: 100%;
+    color: white;
+}
+.fila{
+    display: flex;
+
+}
+.titulo{
+    font-size: 35px;
+    font-family: Modak;
+}
+.centro{
+   
+    width: 35vw;
+    text-align: center;
+    font-family: Dongle;
+    margin-top: 3vw;
+
+}
+.letra{
+    line-height: 13px;
+    font-size: 20px;
+}
+.personaje{
+    
+    width: 30vw;
+}
+.derecha{
+   
+    width: 35vw;
+
+}
+.logo{
+    margin-left: 15vw;
+    margin-top: 3vw;
+
+}
+.canciones{
+    margin-left: 19vw;
+    gap: 3vw;
+    margin-top:2vw;
+    display: flex;
+}
+.canciones li{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 1vw;
+    padding: 5px;
+    font-family: Dongle;
+    font-size: 25px;
+}
+.canciones li a{
+     color: white;
+    text-decoration: none;
+
+}
+.canciones::after{
+ background-color: rgba(252, 19, 105, 0.575);
+}
+
+.nrose{
+    background-image: url(../img/frose.png);
+}
+
+.ngarnet{
+    background-image: url(../img/fgarnet.png);
+}
+.nperla{
+    background-image: url(../img/fperla.png);
+}
+.nstevonie{
+    background-image: url(../img/fstevonie.png);
+}
+.ngreg{
+    background-image: url(../img/fgreg.png);
+}
+.anuncios{
+   float: left;
+   display: flex;
+   gap: 1vw;
+margin-top: 6vw;
+margin-left: 12vw;
+}
+.cancion{
+    margin-top: 3vw;
+}
+footer{
+    color: white;
+     text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  background-color: brown;
+}
+.r{
+  margin-top: 2vw;
+  padding: 4px;
+  margin-left: 30vw;
+  position: fixed;
+}
+h6{
+    margin-top: 1vw;
+    font-size: 15px;
+}
+
+.redes{
+    float: left;
+    margin-left: 26vw;
+}
+
+.redes img{
+    height: 2vw;
+    margin-top: 1vw
+}
