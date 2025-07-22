@@ -1,0 +1,290 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.lm{
+    position: fixed;
+    left: 20px;
+    top: -3px;
+    z-index: 9999;
+    transform: scale(0.65);
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 9998;
+}
+
+.barra{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: right;
+    padding-right: 20px;
+    padding-top: 20px;
+    color: #dce6e4;
+    background-color: rgba(0, 0, 0, 0.497);
+    position: relative;
+    height: 30px;
+}
+
+.barra li a{
+    text-decoration: none;
+    color: #dce6e4;
+}
+
+.intro{
+    height: 668px;
+    background-image: url(img/banner.png);
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    position: relative;
+}
+
+.intro a{
+    background-color: #cc56119e;
+    border-radius: 10px;
+    font-family: Impact;
+    color: white;
+    font-weight: 200;
+    margin-bottom: 0;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    bottom: 50px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+}
+
+.intro a:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.dos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.sn{
+    width: 100%;
+    height: 686px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.sni{
+    width: 50%;
+}
+
+.foto1{
+    transform: scale(0.85);
+}
+
+.snd{
+    width: 50%;
+    font-size: 40px;
+    margin-top: 90px;
+    margin-right: 40px;
+}
+
+p{
+    text-justify: newspaper;
+}
+
+.adoptar{
+    margin-top: -150px;
+    height: 707px;
+    background-image: url(img/banner2.png);
+    z-index: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pq{
+    transform: scale(0.95);
+}
+
+.ayuda{
+    height: 713px;
+    background-color:#d8560b;
+    z-index: 899;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.ayuda::after{
+    content: "";
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.751), transparent);
+    position: absolute;
+}
+
+.ayudat{
+    height: 200px;
+    font-size: 80px;
+    font-family: Impact;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.ayudat p{
+    margin-top: 60px;
+    position: absolute;
+    color: white;
+}
+
+
+.polaroids{
+    height: 484px;
+    margin-top: 20px;
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+}
+
+.iz,
+.der,
+.cent{
+    width: 364px;
+    height: 484px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+.foto2{
+    width: 327px;
+    background-image: url(img/foto2.png);
+    height: 281px;
+    margin-top: 20px;
+}
+
+.foto3{
+    width: 327px;
+    background-image: url(img/foto3.png);
+    height: 281px;
+    margin-top: 20px;
+}
+.foto4{
+    width: 327px;
+    background-image: url(img/foto4.png);
+    height: 281px;
+    margin-top: 20px;
+}
+
+.pol{
+    position: absolute;
+    justify-content: center;
+    bottom: 100px;
+    font-family: Impact;
+    font-size: 40px;
+}
+
+.leermas{
+    text-align: center;
+    position: absolute;
+    color: white;
+    background-color:#cc5611bb;
+    border-radius: 10px;
+    bottom: 60px;
+    font-size: 15px;
+    width: 95px;
+    font-family: Impact;
+}
+
+.leermas a{
+    text-decoration: none;
+    color: white;
+}
+
+.leermas:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.contacto{
+    height: 300px;
+    background-color: #232121;
+    position: relative;
+}
+
+.contt{
+    
+    height: 200px;
+    font-size: 70px;
+    font-family: Impact;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.conttt{
+    color: #dce6e4;
+    font-family: Impact;
+    margin-top: 40px;
+    position: absolute;
+    color: white;
+}
+
+.insta,
+.whats{
+    height: 50px;
+}
+
+.rede{
+    font-size: 25px;
+    margin-top: 10px;
+    color: white;
+    
+}
+
+.instagram,
+.whatsapp{
+    display: flex;
+}
+
+.redes{
+    width: 1000px;
+    margin-top: 200px;
+    height: 50px;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+}
+
+footer{
+    background-color: #2321218f;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    color: #232121;
+    margin-top: 15px;
+}

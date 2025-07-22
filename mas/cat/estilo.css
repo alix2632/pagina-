@@ -1,0 +1,130 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.lm{
+    position: fixed;
+    left: 20px;
+    top: -3px;
+    z-index: 9999;
+    transform: scale(0.65);
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+}
+
+.barra{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: right;
+    padding-right: 20px;
+    padding-top: 20px;
+    color: #dce6e4;
+    background-color: rgba(0, 0, 0, 0.497);
+    position: relative;
+    height: 30px;
+}
+
+.barra li a{
+    text-decoration: none;
+    color: #dce6e4;
+}
+
+.inicio{
+    display: flex;
+    height: 780px;
+    width: 100%;;
+    justify-content: center;
+}
+
+.selec{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 780px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 50px; 
+}
+
+.titulo{
+    position: absolute;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.tt{
+    margin-top: 30px;
+    font-family: Impact;
+}
+
+.perroc,
+.gatoc{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perroc::after,
+.gatoc::after{
+content:"";
+position: absolute;
+height: 100%;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.501);
+border-radius: 100px 18px 100px 0px;
+opacity: 0;
+pointer-events: none;
+}
+
+.inicio img:hover{
+    transform: scale(1.02);
+    filter: drop-shadow(0 0 10px black);
+}
+
+
+.titulos{
+    opacity: 0;
+    z-index: 900;
+    font-family: Impact;
+    position: absolute;
+    display: flex;
+    color: white;
+    font-size: 70px;
+    pointer-events: none;
+}
+
+.gatoc:hover .titulos,
+.perroc:hover .titulos{
+    opacity: 1;
+
+}
+.gatoc:hover::after,
+.perroc:hover::after{
+    opacity: 1;
+    transform: scale(1.02);
+}
+
+.gatoc:hover,
+.perroc:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
