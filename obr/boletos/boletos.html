@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reserva de Boletos</title>
+  <link rel="stylesheet" href="estilo.css" />
+  <link rel="icon" href="../img/logo1.png" type="image/x-icon">
+</head>
+<body>
+        <nav class="barra">
+            <ul class="navegacion">
+                <li><a href="../obr.html">INICIO</a></li>
+                <li><a href="boletos.html">BOLETOS</a></li>
+            </ul>
+            <div class="logo">
+            <img src="../img/marcador.png" alt="" class="marcador">
+            <p class="teatro">TEATRO UNIVERSIDAD REPÚBLICA DE MÉXICO</p>
+            </div>
+            <div class="pan">
+  <div class="container">
+    <h1>Reserva tus boletos</h1>
+    <form action="#" method="POST">
+      <label for="nombre">Nombre completo</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="correo">Correo electrónico</label>
+      <input type="email" id="correo" name="correo" required />
+
+      <label for="fecha">Fecha del evento</label>
+      <input type="date" id="fecha" name="fecha" required />
+
+      <label for="boletos">Número de boletos</label>
+      <input type="number" id="boletos" name="boletos" min="1" max="10" required />
+
+      <button type="submit">Reservar</button>
+    </form>
+  </div>
+  </div>
+</body>
+</html>
